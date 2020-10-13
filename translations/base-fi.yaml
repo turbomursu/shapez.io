@@ -7,14 +7,14 @@ steamPage:
         Shapez.io on rento peli, jossa sinun täytyy rakentaa tehtaita geometristen muotojen
         automatisoituun tuotantoon.
 
-        Kun taso kasvaa, muodot tulevat entistä vaikeammaksi sekä sinun täytyy laajentua loputtomassa kartassa.
+        Kun taso kasvaa, muodot tulevat entistä vaikeammiksi sekä sinun täytyy laajentua loputtomassa kartassa.
 
         Ja jos tämä ei ollut tarpeeksi, niin sinun täytyy tuottaa eksponentiaalisesti enemmän täyttääksesi tarpeet - ainut asia mikä auttaa on skaalautuminen!
 
         Vaikka alussa vain prosessoit muotoja, myöhemmin niitä pitää maalata - tätä varten täytyy sinun kaivaa ja sekoittaa värejä
 
-        Pelin ostaminen Steamista antaa sinulle pääsyn pelin kokoversioon, mutta voit myös pelata kokeiluversiota esin sivuillamme shapez.io ja päättää myöhemmin!
-    title_advantages: Kokoversion hyödyt
+        Pelin ostaminen Steamista antaa sinulle pääsyn pelin täysversioon, mutta voit myös pelata kokeiluversiota esin sivuillamme shapez.io ja päättää myöhemmin!
+    title_advantages: Täysversion hyödyt
     advantages:
         - <b>12 uutta tasoa</b> nostaen tasojen määrän 26 tasoon!
         - <b>18 uutta rakennusta</b> täysin automatisoidulle tehtaalle!
@@ -26,18 +26,18 @@ steamPage:
         - Tue minua! ❤️
     title_future: Suunniteltu sisältö
     planned:
-        - Pohjapiirustus kirjasto (Standalone Exclusive)
+        - Pohjapiirustuskirjasto (Vain täysversiossa)
         - Steam Achievements
         - Palapelitila
         - Minikartta
         - Modit
-        - Hiekkalaatikko -tila
+        - Hiekkalaatikkotila
         - ... ja paljon muuta!
     title_open_source: Tämä peli on avointa lähdekoodia!
     title_links: Linkit
     links:
         discord: Virallinen Discord
-        roadmap: Roadmap
+        roadmap: Tiekartta
         subreddit: Subreddit
         source_code: Lähdekoodi (GitHub)
         translate: Auta kääntämään
@@ -46,7 +46,7 @@ steamPage:
         yritän tarkistaa kaikki ehdotukset ja ottaa palautteen huomioon missä 
         mahdollista.
 
-        Muista tarkistaa Trello -lautani, jossa löytyy koko roadmap!
+        Muista tarkistaa Trello -lautani, jossa löytyy koko tiekartta!
 global:
     loading: Ladataan
     error: Virhe
@@ -93,10 +93,10 @@ mainMenu:
     helpTranslate: Auta kääntämään!
     madeBy: Pelin on tehnyt <author-link>
     browserWarning: Anteeksi, mutta pelin tiedetään toimivan huonosti selaimellasi!
-        Hanki pelin kokoversio tai lataa Google Chrome täyttä tukea varten.
+        Hanki pelin täysversio tai lataa Google Chrome täyttä tukea varten.
     savegameLevel: Taso <x>
     savegameLevelUnknown: Tuntematon taso
-    savegameUnnamed: Unnamed
+    savegameUnnamed: Nimetön
 dialogs:
     buttons:
         ok: OK
@@ -105,7 +105,7 @@ dialogs:
         later: Myöhemmin
         restart: Käynnistä uudelleen
         reset: Nollaa
-        getStandalone: Hanki kokoversio
+        getStandalone: Hanki täysversio
         deleteGame: Tiedän mitä olen tekemässä
         viewUpdate: Näytä päivitys
         showUpgrades: Näytä päivitykset
@@ -221,7 +221,7 @@ ingame:
         createMarker: Luo merkki
         delete: Poista
         pasteLastBlueprint: Liitä viimeisin piirustus
-        lockBeltDirection: Ota hihnojen suunnittelija käyttöön
+        lockBeltDirection: Ota kuljettimen suunnittelija käyttöön
         plannerSwitchSide: Käännä suunnittelijan puoli
         cutSelection: Leikkaa
         copySelection: Kopioi
@@ -284,7 +284,7 @@ ingame:
     settingsMenu:
         playtime: Peliaika
         buildingsPlaced: Rakennukset
-        beltsPlaced: Liukuhihnat
+        beltsPlaced: Kuljettimet
     tutorialHints:
         title: Tarvitsetko apua?
         showHint: Näytä vihje
@@ -306,22 +306,21 @@ ingame:
     interactiveTutorial:
         title: Tutoriaali
         hints:
-            1_1_extractor: Laita <strong>Kaivaja</strong> <strong>ympyrämuodon</strong>
+            1_1_extractor: Laita <strong>poimija</strong> <strong>ympyrämuodon</strong>
                 päälle kaivaaksesi sen!
-            1_2_conveyor: "Yhdistä kaivaja <strong>liukuhihnalla</strong>
+            1_2_conveyor: "Yhdistä poimija <strong>liukuhihnalla</strong>
                 keskusrakennukseen!<br><br>Vihje: <strong>Paina ja
                 raahaa</strong> liukuhihnaa hiirellä!"
             1_3_expand: "Tämä <strong>EI OLE</strong> tyhjäkäyntipeli! Rakenna lisää
-                kaivajia ja hihnoja saadaksesi tavoitteen nopeammin
+                poimijoita ja kuljettimia saadaksesi tavoitteen nopeammin
                 valmiiksi.<br><br>Vihje: Pidä pohjassa <strong>VAIHTO</strong>
-                laittaaksesi useampia kaivajia ja käytä <strong>R</strong>
+                laittaaksesi useampia poimijoita ja käytä <strong>R</strong>
                 kääntääksesi niitä."
             2_1_place_cutter: "Nyt aseta <strong>Leikkuri</strong> leikataksesi ympyrä
-                puoliksi!<br><br> PS: Leikkuri aina leikkaa <strong>ylhäältä alaspäin</strong> 
+                puoliksi!<br><br> PS: Leikkuri leikkaa aina <strong>ylhäältä alaspäin</strong> 
                 riippumatta sen asennosta."
-            2_2_place_trash: The cutter can <strong>clog and stall</strong>!<br><br> Use a
-                <strong>trash</strong> to get rid of the currently (!) not
-                needed waste.
+            2_2_place_trash: Leikkuri voi <strong>tukkeutua</strong>!<br><br> Käytä
+                <strong>roskakoria</strong> päästäksesi eroon (nyt) tarpeettomasta jätteestä.
             2_3_more_cutters: "Good job! Now place <strong>2 more cutters</strong> to speed
                 up this slow process!<br><br> PS: Use the <strong>0-9
                 hotkeys</strong> to access buildings faster!"
